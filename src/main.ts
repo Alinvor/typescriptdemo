@@ -1,3 +1,4 @@
+// the node version
 import { sayHello } from './greeter';
 
 function hello(compiler: string) {
@@ -7,9 +8,10 @@ function hello(compiler: string) {
 hello("TypeScript");
 console.log(sayHello("TypeScript with greeter.ts"));
 
-function showHello(divName: string, name: string) {
-    const elt = document.getElementById(divName);
-    elt.innerText = sayHello(name);
-}
+// the browser version
+// function showHello(divName: string, name: string) {
+//     const elt = document.getElementById(divName);
+//     elt.innerText = sayHello(name);
+// }
 
-showHello("greeting", "TypeScript.");
+// showHello("greeting", "TypeScript.");
