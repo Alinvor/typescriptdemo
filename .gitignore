@@ -27,5 +27,8 @@ dist/
 node_modules/
 
 # js
-*.js
+# *.js
+
+# json
+package-lock.json
 
