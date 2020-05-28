@@ -25,3 +25,7 @@ local.properties
 # node.js
 dist/
 node_modules/
+
+# js
+*.js
+
