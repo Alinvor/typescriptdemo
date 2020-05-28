@@ -12,5 +12,3 @@ export function sayHello(name: string) {
 }
 
 let user = { firstName: "Jane", lastName: "User" };
-
-// document.body.innerHTML = greeter(user);
